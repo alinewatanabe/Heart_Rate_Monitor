@@ -1,1 +1,3 @@
-# Heart_Rate_Monitor
+# Heart Rate Monitor
+
+This project involves the development of a heart rate monitor using the PIC16F628A microcontroller and a piezoelectric sensor. It is a semester project that integrates the contents of the classes "Microcontroladores e Sistemas Controlados" (Microcontrollers and Controlled Systems) and "Instrumentação" (Instrumentation). During the semester, these classes provided knowledge about programming the PIC16F628A and working with various sensors. Applying this knowledge, a device was created to process the sensor signals and display the heart rate on three 7-segment displays, consolidating the learned theory and addressing practical challenges in biomedical monitoring.
