@@ -1,0 +1,152 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F628A ]
+[d frameptr 6 ]
+"55 C:\Users\21.00309-2\Documents\Ins_Mic.X\projeto_ins_mic.c
+[v _main main `(v  1 e 1 0 ]
+"73
+[v _config config `(v  1 e 1 0 ]
+"104
+[v _atualiza_displays atualiza_displays `(v  1 e 1 0 ]
+"130
+[v _myi myi `II(v  1 e 1 0 ]
+"5 S:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 S:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 S:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 S:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 S:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 S:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"49 C:\Users\21.00309-2\Documents\Ins_Mic.X\projeto_ins_mic.c
+[v _flag flag `VEuc  1 e 1 0 ]
+"50
+[v _cont cont `VEui  1 e 2 0 ]
+"51
+[v _estouro_timer0 estouro_timer0 `VEui  1 e 2 0 ]
+"52
+[v _valor_final valor_final `VEui  1 e 2 0 ]
+"53
+[v _status_ant status_ant `VEui  1 e 2 0 ]
+"59 S:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f628a.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"166
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+[s S67 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"183
+[u S76 . 1 `S67 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES76  1 e 1 @5 ]
+"228
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S26 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"245
+[u S35 . 1 `S26 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES35  1 e 1 @6 ]
+"767
+[v _CMCON CMCON `VEuc  1 e 1 @31 ]
+"907
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"969
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1422
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"1443
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"1446
+[v _PS0 PS0 `VEb  1 e 0 @1032 ]
+"1449
+[v _PS1 PS1 `VEb  1 e 0 @1033 ]
+"1452
+[v _PS2 PS2 `VEb  1 e 0 @1034 ]
+"1455
+[v _PSA PSA `VEb  1 e 0 @1035 ]
+"1542
+[v _T0CS T0CS `VEb  1 e 0 @1037 ]
+"1545
+[v _T0IE T0IE `VEb  1 e 0 @93 ]
+"1548
+[v _T0IF T0IF `VEb  1 e 0 @90 ]
+"55 C:\Users\21.00309-2\Documents\Ins_Mic.X\projeto_ins_mic.c
+[v _main main `(v  1 e 1 0 ]
+{
+"71
+} 0
+"73
+[v _config config `(v  1 e 1 0 ]
+{
+"102
+} 0
+"104
+[v _atualiza_displays atualiza_displays `(v  1 e 1 0 ]
+{
+"105
+[v atualiza_displays@centenas centenas `uc  1 a 1 19 ]
+[v atualiza_displays@dezenas dezenas `uc  1 a 1 18 ]
+[v atualiza_displays@unidades unidades `uc  1 a 1 17 ]
+"104
+[v atualiza_displays@valor valor `ui  1 p 2 11 ]
+"128
+} 0
+"5 S:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 6 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 7 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 9 ]
+"25
+} 0
+"5 S:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 4 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0
+"5 S:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"130 C:\Users\21.00309-2\Documents\Ins_Mic.X\projeto_ins_mic.c
+[v _myi myi `II(v  1 e 1 0 ]
+{
+"139
+} 0
